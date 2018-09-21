@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body onload="myfunction();">
+	<script>
+		function myfunction() {
+			alert("Kies je het lava pad of het natuur pad?")
+		}
+	</script>
 	<style>
 	body {
 		background-image: url("Levels/Lvl 3.png");
 		background-size: cover;
 	}
 	.button {
-		background-color: #FF6600;
 		color: white;
 		display: inline-block;
 		padding: 20px 30px;
@@ -15,11 +19,21 @@
 	}
 	.button1 {
 		background-color: transparent;
-		padding: 120px 60px;
-		margin-left: 955px;
-		margin-top: 480px;
+		padding: 40px 40px;
+		margin-left: 5px;
+		margin-top: 470px;
+	}
+	.button2 {
+		position: absolute;
+		bottom: 0;	
+		right: 0;
+		background-color: transparent;
+		padding: 40px 40px;
+		margin-bottom: 300px;
+		margin-right: 10px;
 	}
 </style>
-	<a href="Level 2.html" class="button button1"></a>
+	<a href="Level 4 dead.html" class="button button1"></a>
+	<a href="Level 4.html" class="button button2"></a>
 </body>
 </html>
